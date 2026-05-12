@@ -1,0 +1,105 @@
+html, body {
+    background: #f5f7fa;
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+}
+
+/* Página */
+
+.pagina-inicial {
+    background: #ffffff;
+    color: #1e293b;
+    min-height: 100vh;
+    padding: 2rem 1.5rem 4rem;
+}
+
+/* Banner */
+
+.banner-principal {
+    background: linear-gradient(135deg, #2563eb, #1e3a8a);
+    border-radius: 20px;
+    color: white;
+    padding: 2.5rem;
+    text-align: center;
+}
+
+.subtitulo-banner {
+    color: #bfdbfe;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.titulo-banner {
+    color: white;
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
+.texto-banner {
+    color: #e2e8f0;
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.7;
+}
+
+/* Cards */
+
+.secao-destaques {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cartao-destaque {
+    background: white;
+    border-radius: 18px;
+    padding: 1.8rem;
+    color: #1e293b;
+    width: 320px;
+    border: 1px solid #dbeafe;
+}
+
+.cartao-claro {
+    background: white;
+}
+
+.cartao-escuro {
+    background: #f8fafc;
+}
+
+.cartao-destaque-contato {
+    background: #eff6ff;
+}
+
+.numero-destaque {
+    color: #2563eb;
+    font-weight: bold;
+}
+
+.cartao-destaque h2 {
+    color: #1d4ed8;
+    margin-bottom: 12px;
+}
+
+.cartao-destaque p {
+    color: #475569;
+    line-height: 1.6;
+}
+
+.cartao-destaque a {
+    color: #2563eb;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+    color: #64748b;
+    background: white;
+    border-top: 1px solid #e2e8f0;
+}
